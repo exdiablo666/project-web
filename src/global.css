@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --base-body: Poppins;
+  --base-base-primary-bold: Roboto;
+  --font-montserrat: Montserrat;
+  --font-inter: Inter;
+  --font-inherit: inherit;
+  --font-ibarra-real-nova: "Ibarra Real Nova";
+
+  /* font sizes */
+  --base-body-size: 14px;
+  --base-large-size: 16px;
+  --font-size-17xl: 36px;
+  --font-size-5xl: 24px;
+  --font-size-xs: 12px;
+  --font-size-mid: 17px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --light-white: #fff;
+  --light-secondary: #6c757d;
+  --light-light: #f8f9fa;
+  --text-border-border-color: #f5f6f8;
+  --color-whitesmoke-100: #eaeaea;
+  --color-dimgray-100: #6c6c6c;
+  --color-dimgray-200: #555050;
+  --light-text: #4e4e4e;
+  --color-gainsboro-100: #e1e1e1;
+  --light-border-light: #dfdfdf;
+  --color-gainsboro-200: #d9d9d9;
+  --light-dark: #343a40;
+  --color-slateblue: #233eae;
+  --color-black: #000;
+  --color-orange: #feaf00;
+  --color-gold: #f8d442;
+  --color-red-100: #ff0000;
+  --color-red-200: #fe0000;
+  --color-gray-100: #fffefe;
+  --color-gray-200: rgba(0, 0, 0, 0.5);
+  --color-goldenrod: #f7bc39;
+  --color-lightgray: #cdcdcd;
+  --color-khaki: #ffd476;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-5xs: 8px;
+  --gap-xs: 12px;
+  --gap-9xs: 4px;
+  --gap-2xs: 11px;
+
+  /* Paddings */
+  --padding-6xs: 7px;
+  --padding-mini: 15px;
+  --padding-5xl: 24px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-base: 16px;
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-123xl: 142px;
+  --br-5xs: 8px;
+  --br-20xl: 39px;
+  --br-9xs: 4px;
+  --br-11xl: 30px;
+
+  /* Effects */
+  --small: 0px 2px 4px rgba(0, 0, 0, 0.08);
+}
